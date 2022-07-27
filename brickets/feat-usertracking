@@ -1,0 +1,25 @@
+<h2>Feature "user tracking"</h2>
+<img src="trufi.app/screenshots/feat-user_tracking.png" />
+<p>This app has a feature called "user tracking". Its use is voluntarily. Read more about <a href="#trufi.app/howto-user-tracking.html">how to donate route data with the Trufi App</a>. This feature involves two steps where data is collected or transfered.</p>
+<ol>
+<li>Tracking your location every 5 seconds</li>
+<li>Submitting the data</li>
+</ol>
+<h3>Tracking your location every 5 seconds</h3>
+<p>During this phase <b>no data will be transfered</b> over to our server but collected and saved on your phone.</p>
+<p>You activate this feature when clicking on the "Start tracking" button. Once clicked the app will behave similiar to a GPS tracker and will save your current location every 5 seconds. Click "Stop tracking" to stop that feature. To being able to work with the data we ask you to turn this feature on when boarding the bus and to turn it off when leaving the bus.</p>
+<p>Once turned on the app will behave similiar to a GPS tracker and will save your current location every 5 seconds until you stop the tracking. These locations make up a route. After stopping you will be prompted to give the route a name.</p>
+<h3>Submitting the data</h3>
+<p>Once you provide a <a href="#trufi.app/howto-user-tracking.html#Give_it_a_name">meaningful name for the route</a> and click "Submit route" the app sends the following information to our server</p>
+<ul>
+<li>Name of the route you specified</li>
+<li>Tracked route</li>
+</ul>
+<p>to our server which stores it for later use by our staff. These information will be removed from your phone to not unnecessarily occupy space.</p>
+<p>On submition we will log the following information associated with it:</p>
+<ul>
+<li>your current IP address</li>
+<li>the version of the app installed on your phone</li>
+<li>date and time of your request</li>
+</ul>
+<p>It is standard to log these information to find out why submitions might fail e.g. due to the usage of an outdated app version etc.</p>

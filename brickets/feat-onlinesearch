@@ -1,0 +1,11 @@
+<h2>Feature "online search"</h2>
+<img src="trufi.app/screenshots/feat-search.png" />
+<p>The app comes with a online search feature by default assisting you in finding points of interests (POI) to plan a journey to. You use it when specifying an position to departure from and to arrive to as seen in the image below:</p>
+<img src="trufi.app/screenshots/feat-journeyplanning.png" />
+<p>Entering information sends these over to our server which sends back matching POIs based on your input. The server does not log your input but will log the following information associated with the search request:</p>
+<ul>
+<li>your current IP address</li>
+<li>the version of the app installed on your phone</li>
+<li>date and time of your request</li>
+</ul>
+<p>It is standard to log these information to find potential issues like failing requests due to the usage of an outdated app version etc.</p>

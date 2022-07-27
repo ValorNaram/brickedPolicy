@@ -1,0 +1,113 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+body {
+	background-color:  #ffcf45 ;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 {
+	margin: 0px !important;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	margin: 0px !important;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+h3 {
+	margin: 0px !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+main {
+	box-sizing: border-box;
+	padding: 10px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block
+}
+
+input[type="checkbox"] {
+	visibility: hidden;
+	display: none;
+}
+
+input[type="checkbox"]:checked + label {
+	background-color: aqua;
+}
+
+label {
+	display: inline-block;
+	padding: 10px;
+	box-sizing: border-box;
+	max-width: 400px;
+}
+
+label > * {
+	background-color: inherit;
+}
+
+span.title {
+	font-size: 1.2em;
+	display: block;
+}
+
+span.description {
+	display: block;
+}
+
+.content {
+	text-align: justify;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+/*
+Elements having this class behave in the following way:
+	- it is hidden for visual people
+	- visible for users of assistive technology (if they make us of their alternative methods of accessing content)
+*/
+.screenreader-only {
+	position: absolute;
+	z-index: -10000;
+	top: -20000000%;
+	/*display: none; */ /* <-- This would hide the element also for users of assistive technology thus preventing the use of alternative methods of accessing its content */
+}
+/*
+Alternative methods:
+	- displaying a list of all links on this page (no relevance here)
+	- displaying a tree of page headings (a click on the heading will get the user to the heading on the page to navigate further from it)
+	- ...
+*/
+
+@media only screen and (max-width: 800px) {
+	main {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

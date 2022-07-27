@@ -1,0 +1,5 @@
+<div id="${id}-body" class="screenreader-only">
+	<h2 id="${id}">${title}</h2>
+	<p>${description}</p>
+	${content}
+</div>

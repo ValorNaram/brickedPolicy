@@ -1,0 +1,12 @@
+<h2>Feature "journey planning"</h2>
+<img src="trufi.app/screenshots/feat-journeyplanning.png" />
+<p>The heart of the app is its ability to allow you to specify a starting point you are going from and an destination point you want to travel to to let it make suggestions which path to use.</p>
+<p>In order to do that the app sends the following information to our server:</p>
+<ul>
+<li>the origin you specified</li>
+<li>the destination you specified</li> 
+<li>your current IP address</li>
+<li>the version of the app installed on your phone</li>
+<li>date and time of your request</li>
+<p>These information are necessary to provide this feature and to troubleshoot problems e.g. users using an outdated version of our app</p>
+</ul>

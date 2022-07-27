@@ -1,0 +1,21 @@
+name: Privacy Policy for Trufi App
+out: policy.html
+theme: basic
+date: 2022-07-26
+description: Describe the purpose of this policy
+bricketsDir: ./brickets
+themesDir: ./themes
+theme: basic
+policies:
+  app-policy:
+    title: Trufi App
+    description: Privacy policy applying to the usage of our app
+    brickets:
+      - feat-onlinesearch
+      - feat-journeyplanning
+      - feat-usertracking
+  website-policy:
+    title: Our website trufi.app
+    description: Privacy policy applying to the usage of our website
+    brickets:
+      - web-logging-request

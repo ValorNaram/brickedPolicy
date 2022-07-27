@@ -1,0 +1,13 @@
+<h2>Request logging</h2>
+<p>When navigating through a website or accessing resources on it it demands your browser to request additional resources servers. These can be servers we operate (see next section) but also servers we do not operate</p>
+<h3>What we log when</h3>
+<p>When accessing resources from our website and the website itself we log the following information associated with the requests:</p>
+<ul>
+<li>your IP address</li>
+<li>the name of the resource you requested</li>
+<li>the name and the version of your client you use to browse our website</li>
+<li>date and time of your request</li>
+</li>
+<h3>Logging by other providers of resources</h3>
+<p>Our website demands your browser to also request resources from other servers we do not operate. These might log the information mentioned earlier too but we can't tell more. These resources are common resources not only we use but many other thousand website operators too. In order to speed up loading time and to save you bandwith most website operators decides to demand the browsers of their users to request these resources from a single provider. Not doing so may result in economic damage on our side and we want to avoid that risk.</p>
+<p>At this point we would dick to deep into technical details we do not want to bother you with. Therefore we abstain from providing you a list of operators we let your browsers connect too.</p>

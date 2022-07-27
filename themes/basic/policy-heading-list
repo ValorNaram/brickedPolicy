@@ -1,0 +1,7 @@
+<li>
+	<input type="checkbox" id="${id}-heading" x-toggle-data="${id}" />
+	<label for="${id}-heading">
+		<span class="title">${title}</span>
+		<span class="description">${description}</span>
+	</label>
+</li>
